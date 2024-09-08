@@ -14,7 +14,7 @@ public class DebloatConverter : ConverterBase
         {
             Title = sourceIndex.Title + " - Debloated",
             Format = sourceIndex.Format,
-            Revision = "trungnt2910." + sourceIndex.Revision + ".debloated",
+            Revision = "LeDongAnhKiet." + sourceIndex.Revision + ".debloated",
             Sequenced = sourceIndex.Sequenced
         });
     }

@@ -12,7 +12,7 @@ public class HanNomConverter : ConverterBase
     private readonly string _cacheDir;
     private readonly int _fetcherMaxConcurrentJobs = 8;
     private readonly int _fetcherMaxRetries = 4;
-    private readonly string _userAgent = "KanjiDictVN (https://github.com/trungnt2910/KanjiDictVN)";
+    private readonly string _userAgent = "KanjiDictVN (https://github.com/LeDongAnhKiet/KanjiDictVN)";
 
     public HanNomConverter(string inputDir, string? cacheDir = null) : base(inputDir)
     {
@@ -25,7 +25,7 @@ public class HanNomConverter : ConverterBase
         {
             Title = "Từ điển Hán Nôm",
             Format = sourceIndex.Format,
-            Revision = "trungnt2910.hannom." + DateTime.UtcNow.ToString("yyyyMMdd-HHmmss") + "." + sourceIndex.Revision,
+            Revision = "LeDongAnhKiet.hannom." + DateTime.UtcNow.ToString("yyyyMMdd-HHmmss") + "." + sourceIndex.Revision,
             Sequenced = sourceIndex.Sequenced
         });
     }
